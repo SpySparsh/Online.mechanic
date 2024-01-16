@@ -1,0 +1,145 @@
+body{
+    background-color: #c7f4c2;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+
+
+.log-box{
+    display: flex;
+    background:url("file:///C:/Users/91992/Desktop/WEB%20D/Project/log%20back.jpg");
+    background-size:cover ;
+    width:500px ;
+    height: 600px    ;
+    border-radius: 10px;
+    justify-content: center;
+    -webkit-box-shadow:0px 0px 44px 17px rgb(102, 232, 158);
+-moz-box-shadow: 0px 0px 44px 17px rgba(47, 109, 72, 0.99);
+box-shadow: 0px 0px 44px 17px rgb(22, 99, 68);
+
+}
+#title{
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    height: 70px;
+    margin-bottom: 25px;
+}
+h1{
+    margin-top: 20px;
+    color: rgb(36, 72, 42);
+    text-shadow: rgba(159, 248, 178, 0.93) 0px 0px 54px;
+    
+    height: 50px;
+}
+.email{
+    margin-bottom: 25px;
+}
+.password{
+    margin-bottom: 10px;
+}
+#form{
+    background-color: #31593b;
+    border: 0.5px solid #1a4730;
+    border-bottom: 1.5px solid #343a40;
+
+}
+#form::placeholder{
+    color: aliceblue;
+    font-family: 'nunito',sans-serif;
+    transition: 0.3s;
+    font-size: large;
+    
+}
+#form:hover{
+    text-shadow: rgba(161,224,247,0.9) 0px 0px 15px;
+    transition: 0.3s;
+
+}
+#form::selection{text-decoration: none;
+
+}
+.gadha{
+    height:20px;
+    color: #134f37;
+}
+.aeyi{
+    color: rgb(43, 88, 58);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    margin-right: 10px;
+    display: flex;
+    justify-content: end;
+
+}
+
+.aeyi:hover{
+    text-decoration: underline;
+    text-shadow: rgba(159,207,209,0.64) 0px 0px 19px;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    height:57px;
+}
+
+#button {
+	background-color:#7ccf72;
+	border-radius:28px;
+	border: 3px solid #093e2770;
+	display:inline-block;
+	cursor:pointer;
+	color:rgba(30, 69, 47, 0.647);
+	font-family:Arial;
+	font-size:15px;
+	padding:16px 27px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+    font-weight: bold;
+}
+#button:hover {
+	-webkit-box-shadow:0px 0px 57px 0px rgba(140,227,242,0.22);
+-moz-box-shadow: 0px 0px 57px 0px rgba(140,227,242,0.22);
+box-shadow: 0px 0px 57px 0px rgba(140,227,242,0.22);
+}
+#button:active {
+	position:relative;
+	top:1px;
+}
+#broo{
+    margin-top: 10px;
+    width:80%;
+    height: 3px;
+    background-color: rgb(61, 65, 70);
+    display: flex;
+    justify-items: center;
+    
+}
+
+.ew{
+    color: #183f1e;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.link{
+    display: flex;
+    justify-content:space-around;
+}
+
+i.fa-brands{
+    font-size: 30px;
+    color: #0c1f0cc3;
+    transition:0.3s;
+}
+
+i.fa-brands:hover{
+    transform: scale(1.1,1.1);
+    transition:0.3s;
+    text-shadow: rgb(127, 255, 48) 0px 0px 26px;
+}
